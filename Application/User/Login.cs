@@ -1,12 +1,13 @@
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Domain;
-using MediatR;
-using FluentValidation;
-using Microsoft.AspNetCore.Identity;
 using Application.Errors;
 using Application.Interfaces;
+using Domain;
+using FluentValidation;
+using MediatR;
+using Microsoft.AspNetCore.Identity;
+using Persistence;
 
 namespace Application.User
 {
@@ -37,7 +38,6 @@ namespace Application.User
                 _jwtGenerator = jwtGenerator;
                 _signInManager = signInManager;
                 _userManager = userManager;
-
             }
 
             public async Task<User> Handle(Query request, CancellationToken cancellationToken)
@@ -47,16 +47,17 @@ namespace Application.User
                 if (user == null)
                     throw new RestException(HttpStatusCode.Unauthorized);
 
-                var result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
+                var result = await _signInManager
+                    .CheckPasswordSignInAsync(user, request.Password, false);
 
                 if (result.Succeeded)
                 {
-                    // TODO: GENERATE TOKEN
+                    // TODO: generate token
                     return new User
                     {
                         DisplayName = user.DisplayName,
                         Token = _jwtGenerator.CreateToken(user),
-                        UserName = user.UserName,
+                        Username = user.UserName,
                         Image = null
                     };
                 }

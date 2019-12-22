@@ -1,14 +1,15 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using API.Controllers;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
-namespace DatingApp.API.Controllers
+namespace API.Controllers
 {
-    public class ValuesController : BaseController
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ValuesController : ControllerBase
     {
         private readonly DataContext _context;
         public ValuesController(DataContext context)

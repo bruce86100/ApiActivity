@@ -1,0 +1,15 @@
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Infrastructure.deps.json
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Infrastructure.dll
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Infrastructure.pdb
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Application.dll
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Domain.dll
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Persistence.dll
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Application.pdb
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Domain.pdb
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/bin/Debug/netstandard2.0/Persistence.pdb
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.csprojAssemblyReference.cache
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.AssemblyInfo.cs
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.csproj.CopyComplete
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.dll
+/Users/Lostis/Documents/dotnetpro/Reactivities/ApiActivity/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.pdb

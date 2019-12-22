@@ -1,4 +1,3 @@
-using System.Diagnostics.Tracing;
 using System.Threading.Tasks;
 using Application.User;
 using Domain;
@@ -7,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-
     public class UserController : BaseController
     {
         [AllowAnonymous]
@@ -29,6 +27,5 @@ namespace API.Controllers
         {
             return await Mediator.Send(new CurrentUser.Query());
         }
-
     }
 }
